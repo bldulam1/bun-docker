@@ -3,9 +3,12 @@
   "private": true,
   "scripts": {
     "start": "bun app.ts",
-    "dev": "bun --hot app.ts"
+    "dev": "bun --watch app.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
+  },
+  "dependencies": {
+    "jose": "^5.9.6"
   }
 }
